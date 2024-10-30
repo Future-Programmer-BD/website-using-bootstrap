@@ -7,8 +7,9 @@
 
  
 body{
-  background-image: url(images/bg_main.gif)
-   repeat-y scroll center top rgba(0, 0, 0, 0);
+    background-color: rgb(255, 255, 255)
+  /* background-image: url(images/bg_main.gif)
+   repeat-y scroll center top rgba(0, 0, 0, 0); */
 ;
 
 }
@@ -148,6 +149,466 @@ main{
   
     height: 17rem;
 }
+
+#list{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: left;
+    list-style: none;
+    font-size: 12px;
+    border-color: #000;
+    margin: 30px 10px 20px 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#itm1{
+    
+    padding: 10px;
+    text-align: center;
+    width: 8rem;
+}
+#itm1 > a{
+    color: #ff5900;
+   
+}
+#itm1:hover{
+    background-color: #ff5900;
+    cursor: pointer;
+}
+
+#itm1 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm0{
+    
+    
+    text-align: center;
+}
+   
+#itm0:hover{
+    background-color: #ff590000;
+    cursor: pointer;
+}
+
+
+#itm2{
+    
+    padding: 10px;
+    text-align: center;
+    width: 8rem;
+}
+#itm2 > a{
+    color: #ff002b;
+}
+#itm2:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+#itm2 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm3{
+    
+    padding: 10px;
+    text-align: center;
+    width: 5rem;
+}
+#itm3 > a{
+    color: #712800;
+}
+#itm3:hover{
+    background-color: #671515;
+    cursor: pointer;
+}
+
+#itm3 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+#itm4{
+    
+    padding: 10px;
+    text-align: center;
+    width: 8rem;
+}
+#itm4 > a{
+    color: #09911b;
+}
+#itm4:hover{
+    background-color: #03961e;
+    cursor: pointer;
+}
+
+#itm4 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm5{
+    
+    padding: 10px;
+    text-align: center;
+    width: 5rem;
+}
+#itm5 > a{
+    color: #188ee8;
+}
+#itm5:hover{
+    background-color: #0095ff;
+    cursor: pointer;
+}
+
+#itm5 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm6{
+    
+    padding: 10px;
+    text-align: center;
+    width: 8rem;
+}
+#itm6 > a{
+    color: #963be1;
+}
+#itm6:hover{
+    background-color: #a220d6;
+    cursor: pointer;
+}
+
+#itm6 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm7{
+    
+    padding: 10px;
+    text-align: center;
+    width: 4rem;
+}
+#itm7 > a{
+    color: #ff5900;
+}
+#itm7:hover{
+    background-color: #ff5900;
+    cursor: pointer;
+}
+
+#itm7 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#itm8{
+    
+    padding: 10px;
+    text-align: center;
+    width: 5rem;
+}
+#itm8 > a{
+    color: #ff5900;
+}
+#itm8:hover{
+    background-color: #ff5900;
+    cursor: pointer;
+}
+
+#itm8 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+#itm9{
+    
+    padding: 10px;
+    text-align: center;
+    width: 6rem;
+}
+#itm9 > a{
+    color: #ff0000;
+}
+#itm9:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+#itm9 > a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+#text-image{
+    display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+   
+}
+
+#p-section{
+    grid-column: 1/2;
+    background-color: #03961e;
+    display: flex;
+    gap: 1rem;
+    width: 22rem;
+
+
+    justify-content: left;
+    align-items: center;
+    padding: 6px;
+}
+
+#p1{
+    font-size: 12px;
+    color: white;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+#p2{
+    font-size: 8px;
+    color: white;
+    justify-content: center;
+}
+
+#p3{
+    font-size: 10px;
+    color: white;
+    justify-content: center;
+}
+
+#p4{
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+}
+
+
+#p5{
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+}
+
+#p6{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    height: 1.5rem;
+    cursor: pointer;
+    width: 1.5rem;
+    background-color: gainsboro;
+    justify-content: center;
+}
+
+#p7{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(118, 111, 111);
+    justify-content: center;
+}
+
+#p8{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(254, 134, 134);
+    justify-content: center;
+}
+#p9{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    background-color: rgb(20, 255, 228);
+    justify-content: center;
+}
+
+
+
+
+
+.fantion{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+
+
+.text-col1{
+    background-color: #ffffff;
+    grid-column: 1/4;
+    
+}
+
+#tp1{
+    font-size: 12px;
+    text-align: left;
+    margin: 15px;
+    color: rgb(112, 62, 129);
+}
+
+#tp2{
+    width: 25px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+.text-col2{
+    background-color: #ffffff;
+    grid-column: 4/6;
+}
+
+
+#yt{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#yt1{
+    font-size: 10px;
+    color: #0095ff;
+}
+
+#yt2{
+    font-size: 10px;
+    color: #0095ff;
+}
+
+#poli{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: px;
+    
+}
+
+#com2{
+    height: 20px;
+    width: 20px;
+}
+
+#com1{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#ex{
+    margin: 10px;
+}
+.share-text-style{
+    font-size: 9px;
+}
+.text-col3{
+    background-color: #ffffff;
+    grid-column: 6/8;
+}
+
+
+#pin_main{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#pin1{
+   grid-column: 1/6;
+   text-align: left;
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    font-weight: bold;
+   background-color:#4ba614; 
+}
+
+#pin2{
+    grid-column: 1/6;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+#pin3{
+    grid-column: 1/6;
+    text-align: center;
+    margin-top: 5px;
+
+
+}
+
+#pin4{
+    grid-column: 1/6;
+    text-align: center;
+   
+
+
+}
+
+#pin5{
+    grid-column: 5/6;
+    text-align: center;
+    
+
+
+}
+
+
+#odh1{
+    font-size: 10px;
+    color: white;
+
+}
+
+#odh3{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+#odh4{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+#odh5{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
 /* 
 #kpi-text{
     color: rgb(253, 253, 253);
